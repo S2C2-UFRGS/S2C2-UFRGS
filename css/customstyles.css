@@ -1201,3 +1201,89 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+/* Limpeza de cores, bordas, e Largura: ANULAÇÃO DO CSS PADRÃO */
+.c2-split-columns,
+.c2-split-columns tr,
+.c2-split-columns td {
+    border: none !important;
+    border-color: transparent !important;
+    background-color: white !important; /* Branco para anular o cinza #f9f9f9 */
+    padding: 0 !important; /* Anula o padding padrão de 8px */
+    line-height: inherit !important; /* Garante que a altura da linha seja a padrão do texto */
+}
+
+.c2-split-columns {
+    width: 100% !important; /* ANULAÇÃO: Garante 100% (anula max-width: 90%) */
+    max-width: none !important; /* ANULAÇÃO: Remove a restrição max-width de 90% */
+    margin: 0 !important; /* Anula margens externas, incluindo margin-bottom: 20px */
+    border: none !important; /* Anula a borda de 1px solid #dedede */
+    border-collapse: collapse !important;
+    
+    /* Para anular as regras de cores de linha ímpar, você precisa ser específico: */
+    background-color: white !important; 
+}
+
+/* Garante que NENHUMA linha dentro da sua tabela seja cinza */
+.c2-split-columns > tbody > tr {
+    background-color: white !important;
+}
+
+/* === REGRAS DE LAYOUT (FLEXBOX E ALINHAMENTO) === */
+
+/* Coluna da Imagem */
+.c2-split-columns tr td:first-child {
+    flex: 0 0 20%; 
+    max-width: 20%;
+    padding-right: 0 !important;
+}
+
+.c2-split-columns tr td:first-child img {
+    width: 100% !important; 
+    height: auto;
+    display: block;
+    /* Adicione max-width: none para garantir que a imagem possa crescer */
+    max-width: none !important;
+}
+
+/* Coluna do Texto (Ajuste o padding para alinhamento) */
+.c2-split-columns tr td:last-child {
+    /* Diminua a flexibilidade de crescimento para forçar o espaço a ser cedido */
+    /* Se a imagem tem 60%, o texto só pode ter 40% (menos o padding) */
+    flex: 0 0 auto !important; /* Remove a flexibilidade de crescimento */
+    width: 78% !important; /* Defina uma largura explícita menor que 100% - 60% */
+    
+    /* Mantenha os paddings para alinhamento */
+    padding-left: 20px !important; 
+    padding-right: 0px !important; 
+    
+    text-align: left !important;
+    vertical-align: middle;
+}
+
+/* Regra para garantir que os parágrafos dentro da coluna justifiquem */
+.c2-split-columns tr td:last-child p {
+    text-align: left !important;
+}
+
+/* === REGRAS MODIFICADORAS PARA FIGURA GRANDE (LARGE-FIGURE) === */
+
+/* Coluna da Imagem: Aumentada para 50% */
+.c2-split-columns.large-figure tr td:first-child {
+    flex: 0 0 50% !important; 
+    max-width: 50% !important;
+}
+
+/* Coluna do Texto: Reduzida para 48% (50% da figura + 48% do texto + 2% de padding) */
+.c2-split-columns.large-figure tr td:last-child {
+    /* Largura reduzida para acomodar a figura maior (100% - 50% = 50%. Usamos 48% para margem) */
+    width: 48% !important; 
+    
+    /* Mantemos o flex-basis em auto e removemos o flex: 1 padrão */
+    flex: 0 0 auto !important; 
+    
+    /* Se o texto ficar desalinhado, ajuste este padding-left */
+    padding-left: 20px !important; 
+    /* Garante que o texto se alinhe à direita do container */
+    padding-right: 0px !important; 
+}
