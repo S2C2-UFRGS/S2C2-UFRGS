@@ -1287,3 +1287,20 @@ h4.panel-title {
     /* Garante que o texto se alinhe à direita do container */
     padding-right: 0px !important; 
 }
+
+.fa-home {
+    display: flex;
+    align-items: center;   /* alinha verticalmente */
+}
+
+.fa-home::before {
+    content: "";
+    display: inline-block;
+    width: 36px;           /* ajuste conforme o tamanho desejado */
+    height: 36px;
+    background-image: url({{site.company_logo}});  /* coloque sua imagem aqui */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px; /* espaço entre a imagem e o texto */
+}

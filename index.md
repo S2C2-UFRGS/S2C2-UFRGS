@@ -3,6 +3,7 @@ title: "S2C2 - Sistemas de Sistemas de Comando e Controle"
 permalink: index.html
 toc: false
 hide_sidebar: true
+page_comments: false
 ---
 
 ## Sistemas de Comando e Controle (C2) em Cenários Militares Dinâmicos
