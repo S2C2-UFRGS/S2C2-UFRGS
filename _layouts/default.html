@@ -48,6 +48,8 @@
                 $("#tg-sb-icon").toggleClass('fa-toggle-on');
                 $("#tg-sb-icon").toggleClass('fa-toggle-off');
             });
+
+            $("#tg-sb-link").trigger('click');
         });
     </script>
     {% if page.datatable == true %}
@@ -68,6 +70,7 @@
               searching: true
           });
        });
+
     </script>
     {% endif %}
 
