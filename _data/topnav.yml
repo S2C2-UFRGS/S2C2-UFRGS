@@ -31,18 +31,38 @@
 ##        - title: Product 2
 ##          url: /p2_landing_page.html
 
-topnav:
+topnav_dropdowns:
 - title: Topnav
-  items:
-    - title: Visão Arquitetural
-      url: /visao_arquitetural.html
+  folders:
+    # 1. LINK SIMPLES: ARQUITETURA (Tratado como folder de item único)
+    - title: Arquitetura
+      folderitems:
+        - title: Visão Arquitetural
+          url: /visao_arquitetural.html
+
+    # 2. DROPDOWN: CO-SIMULAÇÃO (Com MAS e Modelagem)
     - title: Co-Simulação
-      url: /co_simulacao.html
-    - title: MAS
-      url: /mas.html    
-    - title: Modelagem
-      url: /modelagem.html
+      folderitems:
+        - title: Visão Geral
+          url: /co_simulacao.html
+        - title: MAS
+          url: /mas.html
+        - title: Modelagem
+          url: /modelagem.html 
+    # 3. DROPDOWN: ANÁLISE (Com Aplicações e Resultados)
+    - title: Análise e Resultados
+      folderitems:
+        - title: Aplicações
+          url: /aplicacoes.html
+        - title: Resultados
+          url: /resultados.html
+        - title: Publicações
+          url: /publicacoes.html
+
+    # 5. LINK EXTERNO: GITHUB (Tratado como folder de item único)
     - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
+      folderitems:
+        - title: Repositório
+          external_url: https://github.com/S2C2-UFRGS/S2C2
 
 # Copyright 2021 Google LLC
