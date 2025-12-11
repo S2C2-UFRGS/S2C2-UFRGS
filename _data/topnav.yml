@@ -38,10 +38,10 @@ topnav:
       url: /visao_arquitetural.html
     - title: Co-Simulação
       url: /co_simulacao.html
+    - title: MAS
+      url: /mas.html    
     - title: Modelagem
       url: /modelagem.html
-    - title: MAS
-      url: /introducao.html
     - title: GitHub
       external_url: https://github.com/tomjoht/documentation-theme-jekyll
 

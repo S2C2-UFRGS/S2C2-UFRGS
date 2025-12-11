@@ -10,7 +10,7 @@ page_comments: false
   <table class="c2-split-columns">
       <tr>
           <td>
-              <img src="assets/images/logos2c2.png">
+              <img src="{{site.company_logo}}">
           </td>
           <td>
             Sistemas de <strong>Comando e Controle (C2)</strong> são cruciais no contexto militar, atuando como ferramentas essenciais que coordenam esforços e recursos para atingir objetivos definidos. Eles fornecem informações oportunas, precisas e estruturadas, vitais para o <strong>suporte à tomada de decisão</strong> e para a eficaz distribuição de ordens às unidades em campo.

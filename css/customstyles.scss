@@ -1291,6 +1291,36 @@ h4.panel-title {
     padding-right: 0px !important; 
 }
 
+/* Coluna da Imagem: Aumentada para 50% */
+.c2-split-columns.two-figures tr td:first-child {
+    flex: 0 0 50% !important; 
+    max-width: 48% !important;
+
+    width: 48% !important; 
+    
+    /* Mantemos o flex-basis em auto e removemos o flex: 1 padrão */
+    flex: 0 0 auto !important; 
+    
+    /* Se o texto ficar desalinhado, ajuste este padding-left */
+    padding-left: 0px !important; 
+    /* Garante que o texto se alinhe à direita do container */
+    padding-right: 20px !important; 
+}
+
+/* Coluna do Texto: Reduzida para 48% (50% da figura + 48% do texto + 2% de padding) */
+.c2-split-columns.two-figures tr td:last-child {
+    /* Largura reduzida para acomodar a figura maior (100% - 50% = 50%. Usamos 48% para margem) */
+    width: 48% !important; 
+    
+    /* Mantemos o flex-basis em auto e removemos o flex: 1 padrão */
+    flex: 0 0 auto !important; 
+    
+    /* Se o texto ficar desalinhado, ajuste este padding-left */
+    padding-left: 20px !important; 
+    /* Garante que o texto se alinhe à direita do container */
+    padding-right: 0px !important; 
+}
+
 .fa-home {
     display: flex;
     align-items: center;   /* alinha verticalmente */
