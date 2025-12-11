@@ -60,9 +60,9 @@ topnav_dropdowns:
           url: /publicacoes.html
 
     # 5. LINK EXTERNO: GITHUB (Tratado como folder de item único)
-    - title: GitHub
-      folderitems:
-        - title: Repositório
-          external_url: https://github.com/S2C2-UFRGS/S2C2
+    #- title: GitHub
+    #  folderitems:
+    #    - title: Repositório
+    #      external_url: https://github.com/S2C2-UFRGS/S2C2
 
 # Copyright 2021 Google LLC

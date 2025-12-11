@@ -42,6 +42,17 @@ Este cenário demonstra a **interoperabilidade** do simulador com um software re
 * **Integração:** Após a parametrização do cenário, as estações GCB são inicializadas nos nós simulados do Emulador de Redes, rodando em complemento ao cenário de simulação.
 * **Funcionalidade Principal:** O sucesso da comunicação via rede é o que permite o reconhecimento mútuo. Se um novo nó é inserido no campo de batalha e não é reconhecido pela rede BFT/GCB, ele é **automaticamente identificado como inimigo**. Após a troca de mensagens bem-sucedida, o novo elemento é reconhecido como parte do mesmo grupo e inserido corretamente na hierarquia de comando. 
 
+<table class="c2-split-columns two-figures">
+    <tr>
+        <td>
+            <img src="assets/images/simulacoes-no-lab.png" alt="Cenário rodando sobre mapa de simulação" style="width:70%;">
+        </td>
+        <td>
+            <img src="assets/images/simulacao.gcb.png" alt="Cenário rodando sobre mapa de visualização">
+        </td>
+    </tr>
+</table>
+
 ## Cenário de Simulação com BRAVO
 
 <p style="color: darkred; font-style: italic; background-color: #ffe8e8; padding: 10px; border-left: 5px solid darkred;">
