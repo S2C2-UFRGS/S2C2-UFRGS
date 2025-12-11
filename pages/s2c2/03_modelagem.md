@@ -67,10 +67,10 @@ A validade da simulação depende da representação fidedigna do ambiente opera
 <table class="c2-split-columns two-figures">
     <tr>
         <td>
-            <img src="../assets/images/fig12.mapa_simulação.jpeg" alt="Cenário rodando sobre mapa de simulação" style="width:80%;">
+            <img src="assets/images/fig12.mapa_simulação.jpeg" alt="Cenário rodando sobre mapa de simulação" style="width:80%;">
         </td>
         <td>
-            <img src="../assets/images/fig13.mapa_PNG.jpeg" alt="Cenário rodando sobre mapa de visualização">
+            <img src="assets/images/fig13.mapa_PNG.jpeg" alt="Cenário rodando sobre mapa de visualização">
         </td>
     </tr>
 </table>
@@ -109,5 +109,5 @@ A cor de cada agente reflete seu estado durante o *loop* de simulação, sendo d
 Agentes mudam de estado com base na **probabilidade de acerto** (influenciada pelo alcance da arma e distância do alvo). Acertos em áreas de menor letalidade têm maior probabilidade, enquanto acertos em áreas mais letais têm menor probabilidade, mas causam transições mais graves. A **comunicação e o reconhecimento visual** são essenciais, pois falhas nesses fatores podem levar a incidentes de fogo amigo.
 
 <div align="center">
-    <img src="../assets/images/fig5.fsm.png" alt="Agentes e suas transições de estados" style="width:45%;">
+    <img src="assets/images/fig5.fsm.png" alt="Agentes e suas transições de estados" style="width:45%;">
 <div>

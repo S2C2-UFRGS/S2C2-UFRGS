@@ -11,7 +11,7 @@ page_comments: false
 <table class="c2-split-columns large-figure">
     <tr>
         <td>
-            <img src="../assets/images/fig01.MASgeneralLayout.png" alt="Layout Geral do Sistema Multiagente (MAS) adaptado dos padrões FIPA" style="width:100%;">
+            <img src="assets/images/fig01.MASgeneralLayout.png" alt="Layout Geral do Sistema Multiagente (MAS) adaptado dos padrões FIPA" style="width:100%;">
         </td>
         <td>
             Um <strong>Sistema Multiagente (MAS)</strong> é um sistema cooperativo e distribuído que desmembra problemas em tarefas menores, atribuindo-as a agentes adequados. Esse processo reflete, de perto, a dinâmica de campos de batalha da vida real. Ao empregar agentes colaborativos, o MAS é capaz de resolver problemas complexos e interagir com diversos algoritmos e tecnologias.
