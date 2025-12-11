@@ -1,5 +1,5 @@
 ---
-title: "Visão Arquitetural Macro"
+title: "Visão Arquitetural"
 permalink: /visao_arquitetural.html
 hide_sidebar: true
 toc: false
@@ -11,7 +11,7 @@ Para criar um ambiente de campo de batalha realista, a solução adota uma abord
 
 A estrutura geral da solução é denominada **S2C2 EmuSim – Configuração e Orquestração de Simulação de Comando e Controle**.
 
-### Co-simulação Orquestrada
+## Co-simulação Orquestrada
 
 O aspecto central da arquitetura é a execução coordenada e sincronizada das duas principais ferramentas em formato de **co-simulação** \cite{gomes2018co}.
 
@@ -40,7 +40,7 @@ O sistema é composto por um núcleo central de orquestração e dois pilares es
     </tbody>
 </table>
 
-### Componentes de Suporte (Visão Geral)
+## Componentes de Suporte
 
 O restante dos componentes fornecem o suporte necessário para configuração, gerenciamento e visualização, conforme ilustrado no diagrama de componentes .
 

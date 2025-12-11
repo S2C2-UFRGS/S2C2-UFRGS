@@ -47,8 +47,6 @@ A identificação de aliados depende do **reconhecimento visual** (dentro de um 
 * **Comunicação:** O BFT troca dados de localização entre nós. Interrupções na rede, causadas por obstáculos (como colinas), podem gerar dados BFT incompletos ou perdidos, aumentando o risco de fogo amigo. 
 * **Dados:** A comunicação entre o orquestrador e a aplicação BFT é realizada via interface **MQTT**.
 
-
-
 ### Lógica de Ataque e Decisão
 
 O simulador itera sobre o cenário, registrando e analisando alvos dentro do campo de visão e alcance das unidades.

@@ -7,11 +7,9 @@ toc: false
 page_comments: false
 ---
 
-## Configuração e Gerenciamento de Cenários
-
 O sistema dispõe de uma **Interface Gráfica (GUI)** que se comunica com o núcleo da **Lógica Central da Aplicação (S2C2)** para gerenciar as funcionalidades.
 
-### Funções Chave de Configuração:
+## Funções Chave de Configuraçãoe Gerenciamento:
 
 * **Base de Doutrina Militar:** Componente externo responsável por definir as **regras da doutrina militar** do Exército Brasileiro. Isso determina as configurações e ações permitidas nos cenários (ex: hierarquia de comunicação, alcance de dispositivos, tipologia de agentes).
 * **Gerenciamento Semântico (OWL):** Agrega as operações de uma linguagem semântica (OWL) para representar o conhecimento e as regras da doutrina militar. Converte dados doutrinários em parâmetros de simulação e gerencia modificações nos cenários. 
@@ -52,9 +50,7 @@ A aplicação possui um **orquestrador (EmuSim)** que gerencia o funcionamento g
 * **Sincronização:** O orquestrador foi construído com interfaces para comunicação com o **NetLogo** e **Mininet-WiFi**, garantindo o *loop* sincronizado da co-simulação.
 * **Isolamento de Rede:** Cada nó de tropa é executado como uma estação no Mininet-WiFi, utilizando **namespaces do kernel Linux**. Isso garante isolamento completo da pilha de rede e dos processos. Esta abordagem permite que o software C2 real seja executado em um ambiente virtualmente idêntico a um hardware dedicado, mas com maior leveza e controle do que contêineres Docker.
 
-## Modelagem do Ambiente
-
-### Mapas e Granularidade
+## Mapas e Granularidade
 
 A validade da simulação depende da representação fidedigna do ambiente operacional.
 
@@ -75,7 +71,7 @@ A validade da simulação depende da representação fidedigna do ambiente opera
     </tr>
 </table>
 
-### Estados dos Agentes
+## Modelagem dos Agentes
 
 A cor de cada agente reflete seu estado durante o *loop* de simulação, sendo definido por uma **Máquina de Estados Finitos (FSM)**. 
 

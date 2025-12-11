@@ -6,8 +6,6 @@ toc: false
 page_comments: false
 ---
 
-# O MAS
-
 <table class="c2-split-columns large-figure">
     <tr>
         <td>
@@ -20,8 +18,6 @@ page_comments: false
         </td>
     </tr>
 </table>
-
-
 
 ## O Conceito de Agente
 

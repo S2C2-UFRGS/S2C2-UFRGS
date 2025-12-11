@@ -4,14 +4,13 @@ permalink: /co_simulacao.html
 hide_sidebar: true
 toc: false
 page_comments: false
-#summary: "Arquitetura geral do sistema S2C2 EmuSim"
 ---
 
 Para abordar esses desafios de forma abrangente, empregamos um ambiente de **co-simulação** que combina dois simuladores poderosos: **NetLogo** e **Mininet-WiFi**.
 
 Essa combinação permite uma análise mais completa, examinando tanto a **coordenação comportamental** quanto a **robustez da comunicação** sob condições de rede verossímeis, uma vez que a comunicação é um ponto crítico para aplicações C2 em rede \cite{gomes2024survey}.
 
-## NetLogo: O Coração da Simulação Multiagente (MAS)
+## NetLogo: O Coração da Simulação Multiagente
 
 <table class="c2-split-columns large-figure">
     <tr>
