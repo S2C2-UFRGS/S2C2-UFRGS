@@ -1,6 +1,7 @@
 ---
 title: "S2C2 - Sistemas de Sistemas de Comando e Controle"
 permalink: index.html
+hide_sidebar: true
 toc: false
 page_comments: false
 ---
