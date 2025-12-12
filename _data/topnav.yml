@@ -48,11 +48,11 @@ topnav_dropdowns:
           url: /mas.html
         - title: Modelagem
           url: /modelagem.html 
-     # 3. DROPDOWN: Aplicações
+     # 3. DROPDOWN: RESULTADOS
     - title: Aplicações
       folderitems:
         - title: Aplicações
-        - url: /aplicacoes.html
+          url: /aplicacoes.html
     # 3. DROPDOWN: ANÁLISE
     - title: Resultados
       folderitems:
