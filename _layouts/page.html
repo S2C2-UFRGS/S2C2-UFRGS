@@ -41,6 +41,7 @@ layout: default
 
    {{content}}
 
+    {% unless page.hide_tags %}
     <div class="tags">
         {% if page.tags != null %}
         <b>Tags: </b>
@@ -52,6 +53,7 @@ layout: default
         {% endfor %}
         {% endif %}
     </div>
+    {% endunless %}
 
 {% include commento.html %}
 

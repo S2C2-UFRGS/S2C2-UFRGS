@@ -1,9 +1,11 @@
 ---
-title: "Aplicações e modelagem de dados"
+title: "Modelagem de dados"
 permalink: /aplicacoes.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [modelagem, dados, percepcao, agentes, fogo amigo, BFT, Blue Force Tracking, ataque, decisao]
+hide_tags: true
 ---
 
 Para organizar as informações geradas pela co-simulação e facilitar a análise, os dados trocados entre agentes, simulador (NetLogo) e emulador (Mininet-WiFi) são estruturados em três conjuntos principais:

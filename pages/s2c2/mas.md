@@ -4,6 +4,8 @@ permalink: /mas.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [mas, sistemas multiagentes, multiagentes]
+hide_tags: true
 ---
 
 <table class="c2-split-columns large-figure">

@@ -5,6 +5,8 @@ hide_sidebar: true
 toc: false
 #summary: "Arquitetura geral do sistema S2C2 EmuSim"
 page_comments: false
+tags: [arquitetura, co-simulação, simulador, emulador, simulacao, emulacao, componentes, orquestrador, orquestracao]
+hide_tags: true
 ---
 
 Para criar um ambiente de campo de batalha realista, a solução adota uma abordagem integrada que combina um **Simulador de Sistema Multiagente (MAS)** e um **Emulador de Rede**. Essa integração é fundamental para representar tanto os comportamentos realistas das tropas quanto os problemas de interoperabilidade de comunicação no cenário militar.

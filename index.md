@@ -4,6 +4,8 @@ permalink: index.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [s2c2, c2, projeto, foco, sistemas de sistemas de  comando e controle]
+hide_tags: true
 ---
 
 ## Sistemas de Comando e Controle (C2) em Cenários Militares Dinâmicos

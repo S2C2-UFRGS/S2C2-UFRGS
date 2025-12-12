@@ -4,6 +4,8 @@ permalink: /publicacoes.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [publicacoes, publicacao]
+hide_tags: true
 ---
 
 1.  **BARONE, D. A. C. et al.** Integrated multi-agent system simulator and network emulator framework to realistically exercise networked command and control application scenarios. In: INTERNATIONAL CONFERENCE ON SIMULATION AND MODELING METHODOLOGIES, TECHNOLOGIES AND APPLICATIONS, 2023, Cham. **Proceedings...** Cham: Springer Nature Switzerland, 2023. p. 9–28.    **Disponível em:** [https://link.springer.com/chapter/10.1007/978-3-031-77603-8_2](https://link.springer.com/chapter/10.1007/978-3-031-77603-8_2)

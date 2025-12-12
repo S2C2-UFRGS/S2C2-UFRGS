@@ -4,6 +4,8 @@ permalink: /resultados.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [metodologia, cenarios, resultados, bft, cgb, bravo]
+hide_tags: true
 ---
 
 

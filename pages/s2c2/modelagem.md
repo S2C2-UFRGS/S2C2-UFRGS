@@ -5,6 +5,8 @@ hide_sidebar: true
 toc: false
 #summary: "Organização e execução das simulações no S2C2"
 page_comments: false
+tags: [modelagem, co-simulacao, orquestrador, orquestracao, simulador, emulador, simulacao, emulacao, mapas, granularidade, agentes, modelo]
+hide_tags: true
 ---
 
 O sistema dispõe de uma **Interface Gráfica (GUI)** que se comunica com o núcleo da **Lógica Central da Aplicação (S2C2)** para gerenciar as funcionalidades.

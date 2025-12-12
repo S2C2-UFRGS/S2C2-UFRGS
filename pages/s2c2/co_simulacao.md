@@ -4,6 +4,8 @@ permalink: /co_simulacao.html
 hide_sidebar: true
 toc: false
 page_comments: false
+tags: [co-simulação, simulador, emulador, netlogo, mininet-wifi, interoperabilidade, simulacao, emulacao]
+hide_tags: true
 ---
 
 Para abordar esses desafios de forma abrangente, empregamos um ambiente de **co-simulação** que combina dois simuladores poderosos: **NetLogo** e **Mininet-WiFi**.
