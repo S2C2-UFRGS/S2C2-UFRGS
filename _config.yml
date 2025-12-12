@@ -15,6 +15,9 @@ company_name: Copyright 2021 S2C2 - UFRGS
 company_logo: "https://s2c2-ufrgs.github.io/S2C2-UFRGS/assets/images/logos2c2.png"
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+
+email_subject: "CONTATO: Projeto S2C2-UFRGS"
+
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/

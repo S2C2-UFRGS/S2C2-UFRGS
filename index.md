@@ -32,4 +32,3 @@ Como parte de uma pesquisa mais ampla, focada em modelar e simular cenários mil
 
 O objetivo é criar um ambiente de simulação que reflita de forma mais fiel as **incertezas e complexidades** das operações militares reais.
 
-{% include links.html %}

@@ -39,7 +39,6 @@ topnav_dropdowns:
       folderitems:
         - title: Visão Arquitetural
           url: /visao_arquitetural.html
-
     # 2. DROPDOWN: CO-SIMULAÇÃO (Com MAS e Modelagem)
     - title: Co-Simulação
       folderitems:
@@ -49,16 +48,23 @@ topnav_dropdowns:
           url: /mas.html
         - title: Modelagem
           url: /modelagem.html 
-    # 3. DROPDOWN: ANÁLISE (Com Aplicações e Resultados)
-    - title: Análise e Resultados
+     # 3. DROPDOWN: Aplicações
+    - title: Aplicações
       folderitems:
         - title: Aplicações
-          url: /aplicacoes.html
+        - url: /aplicacoes.html
+    # 3. DROPDOWN: ANÁLISE
+    - title: Resultados
+      folderitems:
         - title: Resultados
           url: /resultados.html
         - title: Publicações
           url: /publicacoes.html
-
+    # 3. DROPDOWN: RESULTADOS
+    - title: Equipe
+      folderitems:
+        - title: Equipe
+          url: /equipe.html
     # 5. LINK EXTERNO: GITHUB (Tratado como folder de item único)
     #- title: GitHub
     #  folderitems:
