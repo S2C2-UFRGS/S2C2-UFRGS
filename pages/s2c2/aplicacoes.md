@@ -39,6 +39,10 @@ Para organizar as informações geradas pela co-simulação e facilitar a análi
 
 A simulação é projetada para monitorar e analisar incidentes de Fogo Amigo, que ocorrem quando uma unidade militar ataca outra por engano devido à falha em identificá-la como aliada.
 
+Modelagem de Percepção dos Agentes
+
+Inspirada nos modelos de Kuiper e Wenkstern, a simulação amplia o cone de visão tradicional com um círculo de visão periférica de 180° e um pequeno raio de audição. Essa combinação reduz limitações na detecção de aliados muito próximos, evita interpretações equivocadas e torna o sistema perceptivo mais realista e menos sujeito a falhas que poderiam gerar Fogo Amigo.
+
 ### Sistema Blue Force Tracking (BFT)
 
 A identificação de aliados depende do **reconhecimento visual** (dentro de um limite de distância) e, crucialmente, da **comunicação por rede**. O sistema utiliza um módulo **Blue Force Tracking (BFT)**, que rastreia e exibe as posições de forças aliadas (forças azuis) no campo de batalha, aprimorando a consciência situacional.
