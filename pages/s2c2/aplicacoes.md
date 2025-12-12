@@ -1,5 +1,5 @@
 ---
-title: "Modelagem de dados"
+title: "Aplicações"
 permalink: /aplicacoes.html
 hide_sidebar: true
 toc: false
