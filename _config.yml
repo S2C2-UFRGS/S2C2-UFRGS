@@ -13,6 +13,8 @@ company_name: Copyright 2021 S2C2 - UFRGS
 # this appears in the footer
 
 company_logo: "https://s2c2-ufrgs.github.io/S2C2-UFRGS/assets/images/logos2c2.png"
+ufrgs_logo: "https://s2c2-ufrgs.github.io/S2C2-UFRGS/assets/images/logoufrgs.png"
+inf_logo: "https://s2c2-ufrgs.github.io/S2C2-UFRGS/assets/images/logoinfufrgs.png"
 
 github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 
