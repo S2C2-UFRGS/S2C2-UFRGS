@@ -70,5 +70,6 @@ As condições que levam a um disparo de fogo amigo incluem:
 Se o atacante for aliado e o alvo for aliado, e todas as condições de ataque forem atendidas, a contagem de **Fogo Amigo** é incrementada.
 
 <div align="center">
-    <img src="assets/images/fig7.friendly_fire.png" alt="Fluxo de fogo amigo da aplicação" style="width:80%;">
+    <img src="assets/images/fig7.friendly_fire.png" alt="Fluxo de fogo amigo da aplicação." style="width:80%;">
+    <figcaption>Fluxo de fogo amigo da aplicação.</figcaption>
 <div>

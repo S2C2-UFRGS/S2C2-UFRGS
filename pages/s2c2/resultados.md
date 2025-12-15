@@ -32,9 +32,39 @@ Para isolar a eficácia do sistema BFT (Blue Force Tracking), as primeiras anál
 
 ### Cenário BFT 02: Presença de Inimigos
 
-<p style="color: darkred; font-style: italic; background-color: #ffe8e8; padding: 10px; border-left: 5px solid darkred;">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Este cenário teve o objetivo de avaliar o impacto de **unidades hostis** na precisão do sistema BFT (Blue Force Tracking) e nos diferentes intervalos de comunicação (`T`). A simulação manteve o mesmo mapa e topologia do cenário de controle, posicionando **15 unidades aliadas** (3 grupos) e **5 unidades inimigas** em locais estratégicos. A movimentação das unidades aliadas se deu por rotas **determinísticas**, que não são alteradas pela presença hostil. O teste incluiu 5 rodadas para os intervalos `T30` a `T180` ticks.
+
+<table class="c2-split-columns two-figures">
+    <tr>
+        <td>
+            <img src="assets/images/BFT.Inimigos.jpg" alt="Cenário de Simulação BFT 02, posição inicial de aliados e inimigos." style="width:70%;">
+        </td>
+        <td>
+            <img src="assets/images/BFT.inimigos.fogoamigo.png" alt="Cenário de Simulação BFT 02, média de fogo amigo para cinco rodadas por intervalo de tick.">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Cenário de Simulação BFT 02, posição inicial de aliados e inimigos.</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Cenário de Simulação BFT 02, média de fogo amigo para cinco rodadas por intervalo de tick.</figcaption>
+            </figure>
+        </td>
+    </tr>
+</table>
+
+A classificação dos resultados dependeu de três (03): Visão Direta; Mensagem BFT Válida; e Classificação por Omissão, em que a unidade é **tratada como inimigo**. As principais conclusões a partir dos resultados apontam para o **aumento substancial no risco de classificação incorreta** (aliados tratado como inimigos), devido a inclusão de inimigos reais, bem como:
+
+* **Impacto da Comunicação:** O cenário demonstrou uma **forte dependência da frequência** de atualização do BFT.
+    * **Curto Intervalo (`T30`, `T60`):** Produziu **alta identificação correta** e baixas taxas de Fogo Amigo.
+    * **Longo Intervalo (`T150`, `T180`):** Causou **falhas críticas**, resultando nos maiores índices de Fogo Amigo e classificação cruzada (aliados como inimigos).
+* **Origem da Falha:** A adoção de um mapa estático e rotas fixas confirmou que as falhas de identificação originaram-se **exclusivamente da latência e da validade dos dados do BFT**.
+
+Resultados que, em conjunto, reforçam a necessidade crítica de **comunicação frequente** para evitar duplamente o risco: Fogo Amigo e falha na detecção de ameaças reais.
 
 ## Cenário de Simulação com GCB (Grupo de Combate)
 
@@ -44,16 +74,30 @@ Este cenário demonstra a **interoperabilidade** do simulador com um software re
 * **Integração:** Após a parametrização do cenário, as estações GCB são inicializadas nos nós simulados do Emulador de Redes, rodando em complemento ao cenário de simulação.
 * **Funcionalidade Principal:** O sucesso da comunicação via rede é o que permite o reconhecimento mútuo. Se um novo nó é inserido no campo de batalha e não é reconhecido pela rede BFT/GCB, ele é **automaticamente identificado como inimigo**. Após a troca de mensagens bem-sucedida, o novo elemento é reconhecido como parte do mesmo grupo e inserido corretamente na hierarquia de comando. 
 
+
 <table class="c2-split-columns two-figures">
     <tr>
         <td>
-            <img src="assets/images/simulacoes-no-lab.png" alt="Cenário rodando sobre mapa de simulação" style="width:70%;">
+            <img src="assets/images/simulacoes-no-lab.png" alt="Diferentes cenários de simulação em execução no laboratório S2C." style="width:70%;">
         </td>
         <td>
-            <img src="assets/images/simulacao.gcb.png" alt="Cenário rodando sobre mapa de visualização">
+            <img src="assets/images/simulacao.gcb.png" alt="Troca de mensagens bem-sucedida entre os nós.">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Diferentes cenários de simulação em execução no laboratório S2C2.</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Troca de mensagens bem-sucedida entre os nós.</figcaption>
+            </figure>
         </td>
     </tr>
 </table>
+
 
 ## Cenário de Simulação com BRAVO
 

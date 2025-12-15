@@ -65,13 +65,26 @@ A validade da simulação depende da representação fidedigna do ambiente opera
 <table class="c2-split-columns two-figures">
     <tr>
         <td>
-            <img src="assets/images/fig12.mapa_simulação.jpeg" alt="Cenário rodando sobre mapa de simulação" style="width:80%;">
+            <img src="assets/images/fig12.mapa_simulação.jpeg" alt="Cenário rodando sobre mapa de simulação." style="width:80%;">
         </td>
         <td>
-            <img src="assets/images/fig13.mapa_PNG.jpeg" alt="Cenário rodando sobre mapa de visualização">
+            <img src="assets/images/fig13.mapa_PNG.jpeg" alt="Cenário rodando sobre mapa de visualização.">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Cenário rodando sobre mapa de simulação.</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Cenário rodando sobre mapa de visualização.</figcaption>
+            </figure>
         </td>
     </tr>
 </table>
+
 
 ## Modelagem dos Agentes
 
@@ -108,4 +121,5 @@ Agentes mudam de estado com base na **probabilidade de acerto** (influenciada pe
 
 <div align="center">
     <img src="assets/images/fig5.fsm.png" alt="Agentes e suas transições de estados" style="width:45%;">
+    <figcaption>Agentes e suas transições de estados.</figcaption>
 <div>
