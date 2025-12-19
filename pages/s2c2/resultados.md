@@ -66,9 +66,9 @@ A classificação dos resultados dependeu de três (03): Visão Direta; Mensagem
 
 Resultados que, em conjunto, reforçam a necessidade crítica de **comunicação frequente** para evitar duplamente o risco: Fogo Amigo e falha na detecção de ameaças reais.
 
-## Cenário de Simulação com GCB (Grupo de Combate)
+## Cenário de Simulação com GCB
 
-Este cenário demonstra a **interoperabilidade** do simulador com um software real de Comando e Controle, o **GCB (Grupo de Combate)**.
+Este cenário demonstra a **interoperabilidade** do simulador com um software real de Comando e Controle, o **GCB (Gerenciador de Campo de Batalha)**.
 
 * **Objetivo:** Permitir a troca de mensagens entre o simulador e o software GCB para apoiar a tomada de decisão do comandante.
 * **Integração:** Após a parametrização do cenário, as estações GCB são inicializadas nos nós simulados do Emulador de Redes, rodando em complemento ao cenário de simulação.
