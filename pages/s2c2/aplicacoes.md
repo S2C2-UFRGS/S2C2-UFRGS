@@ -1,5 +1,5 @@
 ---
-title: "Aplicações"
+title: "Aplicações Desenvolvidas no Projeto"
 permalink: /aplicacoes.html
 hide_sidebar: true
 toc: false
@@ -65,7 +65,7 @@ As condições que levam a um disparo de fogo amigo incluem:
 * A distância está **fora do alcance de reconhecimento visual**.
 * O atacante **não recebeu feedback de comunicação BFT** do alvo.
 * O alvo está em um estado de combate válido (não `Morto` ou `Assistência Médica Urgente`).
-* A unidade respeitou um atraso mínimo de 6 segundos entre a visualização e o disparo (tempo requisitado para tomada de decisão).
+* A unidade respeitou um atraso mínimo de 6 segundos entre a visualização e o disparo (tempo de raciocínio para tomada de decisão).
 
 Se o atacante for aliado e o alvo for aliado, e todas as condições de ataque forem atendidas, a contagem de **Fogo Amigo** é incrementada.
 

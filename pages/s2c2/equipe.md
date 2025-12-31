@@ -44,7 +44,7 @@ Este estudo foi desenvolvido no âmbito do Convênio [FINEP–FAPEB 01.20.0272.0
 
 ---
 
-## Demais bolsistas que participaram do projeto
+## Demais Bolsistas que Participaram do Projeto
 ### Bolsistas de IA
 * Alisson Nunes Bonatto [<a href="mailto:alissonbonatto@gmail.com?subject={{site.email_subject}}" target="_blank">alissonbonatto@gmail.com</a>]
 * Henrique Werner Delazeri [<a href="mailto:hwdelazeri@inf.ufrgs.br?subject={{site.email_subject}}" target="_blank">hwdelazeri@inf.ufrgs.br</a>]

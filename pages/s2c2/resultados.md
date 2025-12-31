@@ -1,5 +1,5 @@
 ---
-title: "Cenários de testes e resultados"
+title: "Cenários de Testes e Resultados"
 permalink: /resultados.html
 hide_sidebar: true
 toc: false
@@ -9,9 +9,9 @@ hide_tags: true
 ---
 
 
-Diferentes cenários de simulação foram desenvolvidos para atender às necessidades das Forças Armadas. Dois cenários principais são detalhados a seguir, com o objetivo de ilustrar o progresso e o impacto da comunicação na simulação.
+Diferentes cenários de simulação foram desenvolvidos para atender às necessidades das Forças Armadas. Os cenários principais são detalhados a seguir, com o objetivo de ilustrar o progresso e o impacto da comunicação na simulação.
 
-## Metodologia de Teste e Cenários BFT
+## Cenários com Aplicações Desenvolvidas no Projeto: Metodologia de Teste e Cenários BFT
 
 Os cenários de teste utilizam o mesmo mapa , características de tropas, parâmetros de comunicação e condições climáticas, diferindo apenas pela presença ou ausência de forças inimigas.
 
@@ -66,8 +66,9 @@ A classificação dos resultados dependeu de três (03): Visão Direta; Mensagem
 
 Resultados que, em conjunto, reforçam a necessidade crítica de **comunicação frequente** para evitar duplamente o risco: Fogo Amigo e falha na detecção de ameaças reais.
 
-## Cenário de Simulação com GCB
+## Cenários com Aplicações do Cliente: Simulação com GCB e Bravo
 
+### Cenário de Simulação com GCB
 Este cenário demonstra a **interoperabilidade** do simulador com um software real de Comando e Controle, o **GCB (Gerenciador de Campo de Batalha)**.
 
 * **Objetivo:** Permitir a troca de mensagens entre o simulador e o software GCB para apoiar a tomada de decisão do comandante.
@@ -99,11 +100,11 @@ Este cenário demonstra a **interoperabilidade** do simulador com um software re
 </table>
 
 
-## Cenário de Simulação BRAVO (Extensão  S2C2)
+### Cenário de Simulação BRAVO (Extensão  S2C2)
 
 Este cenário foi projetado para validar os protocolos e as tecnologias da aplicação **Bravo** (FAC2FTer). Ao contrário de cenários anteriores, o Bravo foi executado de forma isolada para garantir que as funcionalidades de comunicação operassem sem interferências externas.
 
-### Configuração e Forças
+#### Configuração e Forças
 
 * **Organização:** Três Grupos de Combate (GCs), totalizando 15 agentes de infantaria.
 * **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a escalabilidade da aplicação.
@@ -113,7 +114,7 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 
 
 
-### Funcionalidades Validadas
+#### Funcionalidades Validadas
 
 * **Mensageria (Chat):** Sucesso no fluxo completo de mensagens (envio, entrega e confirmação de leitura).
 * **BFT Nativo:** Monitoramento em tempo real da posição das tropas aliadas. 
@@ -163,7 +164,7 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
     </p>
 </div>
 
-### Dinâmica e Conclusão
+#### Dinâmica e Conclusão
 
 Durante o deslocamento em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional.
 
