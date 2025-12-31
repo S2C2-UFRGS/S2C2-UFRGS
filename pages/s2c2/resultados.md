@@ -121,21 +121,21 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 <table class="c2-split-columns two-figures">
     <tr>
         <td>
-            <img src="assets/images/bravo6.png" alt="Comunicação via chat: Envio de resposta com confirmação de leitura." style="width:70%;">
+            <img src="assets/images/bravo1.jpeg" alt="Inicialização da aplicação" style="width:70%;">
         </td>
         <td>
-            <img src="assets/images/bravo8.png" alt="Uso do BFT nativo: Atualização de marcação de tropa aliada no mapa.">
+            <img src="assets/images/bravo6.jpeg" alt="Comunicação via chat">
         </td>
     </tr>
     <tr>
         <td>
             <figure style="margin: 0;">
-                <figcaption>Comunicação via chat: Envio de resposta com confirmação de leitura.</figcaption>
+                <figcaption>Inicialização da aplicação e apresentaçao dos dados de configuração.</figcaption>
             </figure>
         </td>
         <td>
             <figure style="margin: 0;">
-                <figcaption>Uso do BFT nativo: Atualização de marcação de tropa aliada no mapa.</figcaption>
+                <figcaption>Comunicação via chat: Envio de resposta com confirmação de leitura.</figcaption>
             </figure>
         </td>
     </tr>
@@ -143,4 +143,14 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 
 ### Dinâmica e Conclusão
 
-Durante o deslocamento do Setor Comercial Norte em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional, permitindo a manutenção da consciência situacional e o fluxo de ordens mesmo com restrições de sinal intermitentes.
+Durante o deslocamento do Setor Comercial Norte em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional.
+
+<div style="text-align: center; margin: 20px 0;">
+    <video autoplay loop muted playsinline style="width: 100%; max-width: 800px; border-radius: 8px; border: 1px solid #ddd;">
+        <source src="/assets/images/BravoDemo.mp4" type="video/mp4">
+        Seu navegador não suporta a exibição de vídeos.
+    </video>
+    <p style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">
+        Demonstração: Movimentação dos agentes e atualização de BFT em tempo real (Loop).
+    </p>
+</div>
