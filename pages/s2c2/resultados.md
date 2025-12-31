@@ -108,8 +108,8 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 * **Organização:** Três Grupos de Combate (GCs), totalizando 15 agentes de infantaria.
 * **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a capacidade de escala da aplicação.
 * **Conectividade por Proximidade:** O acesso ao Barramento Centralizado depende da localização geográfica. No mapa, pontos de acesso possuem alcances distintos:
-* **Retangulos Amarelos:** Alcance de sinal de **2 km**.
-* **Retangulos Rosas:** Alcance de sinal de **4 km**.
+* **Retângulos Amarelos:** Alcance de sinal de **2 km**.
+* **Retângulos Rosas:** Alcance de sinal de **4 km**.
 
 
 
