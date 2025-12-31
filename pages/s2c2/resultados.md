@@ -108,8 +108,8 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 * **Organização:** Três Grupos de Combate (GCs), totalizando 15 agentes de infantaria.
 * **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a capacidade de escala da aplicação.
 * **Conectividade por Proximidade:** O acesso ao Barramento Centralizado depende da localização geográfica. No mapa, pontos de acesso possuem alcances distintos:
-* **Elementos Amarelos:** Alcance de sinal de **2 km**.
-* **Elementos Rosas:** Alcance de sinal de **4 km**.
+* **Retangulos Amarelos:** Alcance de sinal de **2 km**.
+* **Retangulos Rosas:** Alcance de sinal de **4 km**.
 
 
 
@@ -141,12 +141,13 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
     </tr>
 </table>
 
-<div style="text-align: center; margin: 20px 0;">
-    <video autoplay loop muted playsinline style="width: 100%; max-width: 800px; border-radius: 8px; border: 1px solid #ddd;">
+<div style="width: 100%; margin: 20px 0;">
+    <video autoplay loop muted playsinline 
+           style="display: block; margin: 0 auto; width: 100%; max-width: 800px; border-radius: 8px; border: 1px solid #ddd;">
         <source src="assets/videos/BravoDemo.mp4" type="video/mp4">
         Seu navegador não suporta a exibição de vídeos.
     </video>
-    <p style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">
+    <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px; font-style: italic;">
         Uso do BFT nativo do Bravo: Atualização de marcação de tropa aliada no mapa.
     </p>
 </div>
