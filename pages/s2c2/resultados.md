@@ -147,7 +147,7 @@ Durante o deslocamento do Setor Comercial Norte em direção à Vila Planalto, o
 
 <div style="text-align: center; margin: 20px 0;">
     <video autoplay loop muted playsinline style="width: 100%; max-width: 800px; border-radius: 8px; border: 1px solid #ddd;">
-        <source src="/assets/images/BravoDemo.mp4" type="video/mp4">
+        <source src="assets/images/BravoDemo.mp4" type="video/mp4">
         Seu navegador não suporta a exibição de vídeos.
     </video>
     <p style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">
