@@ -24,7 +24,7 @@ hide_tags: true
 ### O Foco do Nosso Projeto
 
 <div>
-Como parte de uma pesquisa mais ampla, focada em modelar e simular cenários militares para avaliar a interoperabilidade de C2, nosso trabalho se concentra na representação de **unidades militares dinâmicas**. Estas unidades devem ser capazes de **adaptar seu comportamento** em resposta a condições de campo de batalha em constante mudança, como:
+Como parte de uma pesquisa mais ampla, focada em modelar e simular cenários militares para avaliar a interoperabilidade de C2, nosso trabalho se concentra na representação de <strong>unidades militares dinâmicas</strong>. Estas unidades devem ser capazes de <strong>adaptar seu comportamento</strong> em resposta a condições de campo de batalha em constante mudança, como:
 </div>
 
 * Restrições de comunicação

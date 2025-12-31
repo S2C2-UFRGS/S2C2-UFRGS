@@ -101,30 +101,30 @@ Este cenário demonstra a **interoperabilidade** do simulador com um software re
 
 ## Cenário de Simulação BRAVO (Extensão  S2C2)
 
-Este cenário foi projetado para validar os protocolos e as tecnologias da aplicação **Bravo** (FAC2FTer). Ao contrário de cenários anteriores, o Bravo foi executado de forma isolada para garantir que as funcionalidades de comunicação e geolocalização operassem sem interferências externas.
+Este cenário foi projetado para validar os protocolos e as tecnologias da aplicação **Bravo** (FAC2FTer). Ao contrário de cenários anteriores, o Bravo foi executado de forma isolada para garantir que as funcionalidades de comunicação operassem sem interferências externas.
 
 ### Configuração e Forças
 
 * **Organização:** Três Grupos de Combate (GCs), totalizando 15 agentes de infantaria.
-* **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a capacidade de escala da aplicação.
+* **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a escalabilidade da aplicação.
 * **Conectividade por Proximidade:** O acesso ao Barramento Centralizado depende da localização geográfica. No mapa, pontos de acesso possuem alcances distintos:
-* **Retângulos Amarelos:** Alcance de sinal de **2 km**.
-* **Retângulos Rosas:** Alcance de sinal de **4 km**.
+    * **Retângulos Amarelos:** Alcance de sinal de **2 km**.
+    * **Retângulos Rosas:** Alcance de sinal de **4 km**.
 
 
 
 ### Funcionalidades Validadas
 
 * **Mensageria (Chat):** Sucesso no fluxo completo de mensagens (envio, entrega e confirmação de leitura).
-* **BFT Nativo:** Monitoramento em tempo real da posição das tropas aliadas. As coordenadas são atualizadas automaticamente sempre que um rádio entra na área de cobertura de um ponto de acesso.
+* **BFT Nativo:** Monitoramento em tempo real da posição das tropas aliadas. 
 
 <table class="c2-split-columns two-figures">
     <tr>
         <td>
-            <img src="assets/images/bravo1.jpeg" alt="Inicialização da aplicação" style="width:70%;">
+            <img src="assets/images/bravo1.png" alt="Inicialização da aplicação" style="width:60%;">
         </td>
         <td>
-            <img src="assets/images/bravo6.jpeg" alt="Comunicação via chat">
+            <img src="assets/images/bravo6.png" alt="Comunicação via chat">
         </td>
     </tr>
     <tr>
@@ -141,6 +141,17 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
     </tr>
 </table>
 
+<div style="width: 100%; text-align: center; margin: 20px 0;">
+    <figure style="margin: 0 auto; display: inline-block; width: 100%;">
+        <img src="assets/images/bravo.friendly.view.png" 
+             alt="Inicialização da aplicação" 
+             style="width: 70%; max-width: 800px; border-radius: 4px;">
+        <figcaption style="font-size: 0.9em; color: #666; margin-top: 10px; font-style: italic;">
+            Distribuição geográfica dos aliados no cenário de simulação.
+        </figcaption>
+    </figure>
+</div>
+
 <div style="width: 100%; margin: 20px 0;">
     <video autoplay loop muted playsinline 
            style="display: block; margin: 0 auto; width: 100%; max-width: 800px; border-radius: 8px; border: 1px solid #ddd;">
@@ -154,5 +165,5 @@ Este cenário foi projetado para validar os protocolos e as tecnologias da aplic
 
 ### Dinâmica e Conclusão
 
-Durante o deslocamento do Setor Comercial Norte em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional.
+Durante o deslocamento em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional.
 

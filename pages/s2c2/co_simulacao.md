@@ -10,7 +10,7 @@ hide_tags: true
 
 Para abordar esses desafios de forma abrangente, empregamos um ambiente de **co-simulação** que combina dois simuladores poderosos: **NetLogo** e **Mininet-WiFi**.
 
-Essa combinação permite uma análise mais completa, examinando tanto a **coordenação comportamental** quanto a **robustez da comunicação** sob condições de rede verossímeis, uma vez que a comunicação é um ponto crítico para aplicações C2 em rede \cite{gomes2024survey}.
+Essa combinação permite uma análise mais completa, examinando tanto a **coordenação comportamental** quanto a **robustez da comunicação** sob condições de rede verossímeis, uma vez que a comunicação é um ponto crítico para aplicações C2 em rede.
 
 ## NetLogo: O Coração da Simulação Multiagente
 
@@ -29,14 +29,14 @@ Essa combinação permite uma análise mais completa, examinando tanto a **coord
 
 ### Agentes e Extensibilidade do NetLogo
 
-O NetLogo suporta quatro tipos principais de agentes \cite{nogare2020netlogo}:</p>
+O NetLogo suporta quatro tipos principais de agentes:
 
 * **Turtles (Tartarugas):** Agentes móveis que se movem no ambiente.
 * **Patches (Patches):** Agentes estacionários que representam pontos fixos ou o ambiente de fundo.
 * **Links (Ligações):** Agentes que conectam Turtles, utilizados para modelar redes e grafos.
 * **Observer (Observador):** O agente que cria e emite comandos para os outros agentes.
 
-Embora o ambiente principal do NetLogo seja uma matriz de Turtles se movendo sobre Patches, suas capacidades são altamente **extensíveis** ao ser conectado a outras aplicações e linguagens. Por exemplo, existem *plug-ins* que permitem a comunicação com a linguagem R para análise estatística \cite{chiacchio2014agent}, e bibliotecas como PyNetLogo, que possibilitam o controle do NetLogo via programas Python.
+Embora o ambiente principal do NetLogo seja uma matriz de Turtles se movendo sobre Patches, suas capacidades são altamente **extensíveis** ao ser conectado a outras aplicações e linguagens. Por exemplo, existem *plug-ins* que permitem a comunicação com a linguagem R para análise estatística, e bibliotecas como PyNetLogo, que possibilitam o controle do NetLogo via programas Python.
 
 ## Mininet-WiFi: Emulando Interoperabilidade de Rede
 
