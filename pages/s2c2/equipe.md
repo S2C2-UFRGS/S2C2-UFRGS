@@ -1,5 +1,5 @@
 ---
-title: "Equipe e contatos"
+title: "Equipe"
 permalink: /equipe.html
 hide_sidebar: true
 toc: false
@@ -7,8 +7,6 @@ page_comments: false
 tags: [equipe, contatos]
 hide_tags: true
 ---
-Este estudo foi desenvolvido no âmbito do Convênio [FINEP–FAPEB 01.20.0272.00 – Sistema de Sistemas de Comando e Controle](https://fapeb.com.br/s2c2-convenio-finep-fapeb-01-20-0272-00/), em colaboração com o Instituto Militar de Engenharia (IME), a Universidade de Brasília (UNB) e o Exercíto Brasileiro (EB). Agradecemos também ao apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) e do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
-
 
 ## Coordenador Geral
 * Edison Pignaton de Freitas [<a href="mailto:edison.pignaton@inf.ufrgs.br?subject={{site.email_subject}}" target="_blank">edison.pignaton@inf.ufrgs.br</a>]
@@ -59,6 +57,12 @@ Este estudo foi desenvolvido no âmbito do Convênio [FINEP–FAPEB 01.20.0272.0
 * Matheus Lima [<a href="mailto:matheuslima.d.ml@gmail.com?subject={{site.email_subject}}" target="_blank">matheuslima.d.ml@gmail.com</a>]
 * Rodrigo Murillo Boesche [<a href="mailto:rodrigo.boesche@gmail.com?subject={{site.email_subject}}" target="_blank">rodrigo.boesche@gmail.com</a>]
 * Vinicius Santos de Lima [<a href="mailto:viniciusdfd@gmail.com?subject={{site.email_subject}}" target="_blank">viniciusdfd@gmail.com</a>]
+
+---
+
+## Agradecimentos
+
+Este estudo foi desenvolvido no âmbito do Convênio [FINEP–FAPEB 01.20.0272.00 – Sistema de Sistemas de Comando e Controle](https://fapeb.com.br/s2c2-convenio-finep-fapeb-01-20-0272-00/), em colaboração com o Instituto Militar de Engenharia (IME), a Universidade de Brasília (UNB) e o Exercíto Brasileiro (EB). Agradecemos também ao apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) e do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
 
 
 
