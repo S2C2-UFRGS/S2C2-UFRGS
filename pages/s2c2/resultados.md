@@ -99,8 +99,48 @@ Este cenário demonstra a **interoperabilidade** do simulador com um software re
 </table>
 
 
-## Cenário de Simulação com BRAVO
+## Cenário de Simulação BRAVO (Extensão  S2C2)
 
-<p style="color: darkred; font-style: italic; background-color: #ffe8e8; padding: 10px; border-left: 5px solid darkred;">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Este cenário foi projetado para validar os protocolos e as tecnologias da aplicação **Bravo** (FAC2FTer). Ao contrário de cenários anteriores, o Bravo foi executado de forma isolada para garantir que as funcionalidades de comunicação e geolocalização operassem sem interferências externas.
+
+### Configuração e Forças
+
+* **Organização:** Três Grupos de Combate (GCs), totalizando 15 agentes de infantaria.
+* **Escalabilidade:** Para simular um cenário realista, utilizou-se uma instância do Bravo por grupo. No 3º GC, duas instâncias foram executadas simultaneamente para testar a capacidade de escala da aplicação.
+* **Conectividade por Proximidade:** O acesso ao Barramento Centralizado depende da localização geográfica. No mapa, pontos de acesso possuem alcances distintos:
+* **Elementos Amarelos:** Alcance de sinal de **2 km**.
+* **Elementos Rosas:** Alcance de sinal de **4 km**.
+
+
+
+### Funcionalidades Validadas
+
+* **Mensageria (Chat):** Sucesso no fluxo completo de mensagens (envio, entrega e confirmação de leitura).
+* **BFT Nativo:** Monitoramento em tempo real da posição das tropas aliadas. As coordenadas são atualizadas automaticamente sempre que um rádio entra na área de cobertura de um ponto de acesso.
+
+<table class="c2-split-columns two-figures">
+    <tr>
+        <td>
+            <img src="assets/images/bravo6.png" alt="Comunicação via chat: Envio de resposta com confirmação de leitura." style="width:70%;">
+        </td>
+        <td>
+            <img src="assets/images/bravo8.png" alt="Uso do BFT nativo: Atualização de marcação de tropa aliada no mapa.">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Comunicação via chat: Envio de resposta com confirmação de leitura.</figcaption>
+            </figure>
+        </td>
+        <td>
+            <figure style="margin: 0;">
+                <figcaption>Uso do BFT nativo: Atualização de marcação de tropa aliada no mapa.</figcaption>
+            </figure>
+        </td>
+    </tr>
+</table>
+
+### Dinâmica e Conclusão
+
+Durante o deslocamento do Setor Comercial Norte em direção à Vila Planalto, os Grupos de Combate dependeram da cobertura de rádio para sincronizar dados. A simulação confirmou que a lógica de **Barramento Centralizado por Proximidade** é estável e funcional, permitindo a manutenção da consciência situacional e o fluxo de ordens mesmo com restrições de sinal intermitentes.
